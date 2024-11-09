@@ -8,12 +8,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Custom D&D themed colors
-        primary: "#7f1d1d", // Dark Red (Primary D&D theme)
-        secondary: "#1e293b", // Dark Blue Gray
-        accent: "#f59e0b", // Golden Yellow
-        neutral: "#111827", // Dark Gray
-        "base-100": "#1f2937", // Slate Gray for backgrounds
+        yellow: {
+          50: '#FFFBEB',
+          100: '#FEF3C7',
+          200: '#FDE68A',
+          300: '#FCD34D',
+          400: '#FBBF24',
+          500: '#F59E0B',
+          600: '#D97706',
+          700: '#B45309',
+          800: '#92400E',
+          900: '#78350F',
+        },
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
       },
     },
   },
